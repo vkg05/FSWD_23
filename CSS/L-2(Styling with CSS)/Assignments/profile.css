@@ -1,0 +1,32 @@
+.profile-card {
+    width: 250px;
+    height: 410px;
+    margin-top: 10vh;
+    margin-inline: auto;
+    background-color: whitesmoke;
+}
+.profile-image {
+    width: 250px;
+    
+}
+.profile-name {
+    text-align: center;
+}
+.profile-post {
+    color: rgb(23, 171, 230);
+}
+
+.profile-contact {
+    text-align: center;
+    background-color: rgb(5, 5, 43);
+    color: white;
+    padding: 10px;
+}
+
+li {
+    display: inline;
+    padding-inline: 3px;
+}
+ul {
+    padding: 10px
+}
