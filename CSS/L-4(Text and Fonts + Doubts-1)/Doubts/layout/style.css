@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+
+div {
+    border: 2px solid green;
+    padding: 10px;
+}
+.content {
+    display: flex;
+    gap: 5px;
+}
+.left {
+    flex-basis: 40%;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    flex-grow: 1;
+}
+.right-top {
+    flex-basis: 40%;
+}
+.right-bottom {
+    flex-grow: 1;
+}
