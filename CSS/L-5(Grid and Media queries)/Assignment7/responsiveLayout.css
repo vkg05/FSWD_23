@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: wheat;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+header, nav, main, .sidebar, .ads, footer {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+main {
+    height: 200px;
+}
+@media screen and (min-width:500px) {
+    .main-1 {
+        display: flex;
+    }
+    .sidebar {
+        flex-basis: 20%;
+    }
+    main {
+        flex-grow: 1;
+    }
+    .last {
+        display: flex;
+    }
+    .add {
+        flex-basis: 20%;
+    }
+    footer {
+        flex-grow: 1;
+    }
+}
+@media screen and (min-width:760px) {
+    
+}

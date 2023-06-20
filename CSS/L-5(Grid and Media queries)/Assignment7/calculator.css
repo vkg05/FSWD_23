@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    padding-top: 100px;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+.container {
+    background-color: white;
+}
+.solved-numbers {
+    background-color: black;
+    color: white;
+    height: 70px;
+}
+.solved-numbers p{
+    text-align: end;
+    padding-top: 25px;
+    padding-right: 10px;
+}
+.numbers {
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(4, 60px)
+}
+.box {
+    display: grid;
+    border: 1px solid black;
+    height: 45px;
+}
+#box-1 {
+    grid-column: 1/3;
+}
+#box-16 {
+    grid-column: 1/-2;
+}
+#box-1,#box-2,#box-3,#box-2,#box-7,#box-11,#box-15,#box-17 {
+    background-color: goldenrod;
+}
+.numbers{
+    display: grid;
+}
+.box p {
+    text-align: center;
+    margin-block: 12px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
