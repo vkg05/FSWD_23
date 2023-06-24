@@ -1,0 +1,11 @@
+p {
+    font-size: 3rem;
+}
+p::before {
+    content: 'Before text ';
+    background-color: tomato;
+}
+p::after {
+    content: 'After text something.';
+    background-color: green;
+}

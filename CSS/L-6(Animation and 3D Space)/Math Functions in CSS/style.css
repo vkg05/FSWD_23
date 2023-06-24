@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    /* width: calc(100% - 80px); */
+    /* width: max(50%, 300px); */
+    width: min(800px, 100%);
+    aspect-ratio: 1/1;
+    border: 2px solid red;
+    margin-inline: auto;
+}
+.box {
+    display: inline-block;
+    border: 2px solid green;
+    /* width: 60px; */
+    width: calc(200px/4);
+}
