@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+}
+.container {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #0b3e0b;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    animation: up-down 4s ease-in-out infinite;
+}
+@keyframes up-down {
+    from {
+        background-color: red;
+        transform: translateY(-360px);
+        
+    }
+    to {
+        background-color: yellow;
+        transform: translateY(300px)
+    }
+}
