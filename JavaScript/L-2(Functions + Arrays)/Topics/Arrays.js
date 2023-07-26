@@ -27,9 +27,17 @@
 
 
 
-const words = ['Ram', 'Vishal', 'Mohit', 'Sanjeev'];
-console.log(words);
-words.splice(2, 0, 'Sanjay');
-words.splice(3, 0, 'Vicky')
-console.log(words);
+// const words = ['Ram', 'Vishal', 'Mohit', 'Sanjeev'];
+// console.log(words);
+// words.splice(2, 0, 'Sanjay');
+// words.splice(3, 0, 'Vicky')
+// console.log(words);
+
+
+let a = [10, 4, 23, 'hi'];
+const myFunction = (element) => {
+    console.log('printing', element)
+}
+a.forEach(myFunction);
+
 
