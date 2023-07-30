@@ -1,0 +1,20 @@
+.container {
+    width: 500px;
+    background-color: rgba(247, 247, 133, 0.838);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 100px);
+    gap: 20px;
+      
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: teal;
+    color: white;
+}
+
+.fancy {
+    background-color: yellowgreen;
+    border-radius: 50%;
+}
