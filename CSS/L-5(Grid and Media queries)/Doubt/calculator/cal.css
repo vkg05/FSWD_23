@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.span-2 {
+    grid-column: span 2;
+}
+
+.span-3 {
+    grid-column: span 3;
+}
+.container {
+    max-width: 260px;
+    margin: 100px auto;
+}
+.number_input {
+    width: 100%;
+    padding: 20px 10px;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    text-align: end;
+    border: none;
+}
+
+.buttons_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.button {
+    background-color: #ccc;
+    border: 1px solid black;
+    padding-block: 10px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: white;
+}
+.orange {
+    background-color: orange;
+}

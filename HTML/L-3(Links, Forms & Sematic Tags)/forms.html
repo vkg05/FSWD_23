@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML</title>
+</head>
+<body>
+    <h3>Forms in HTML</h3>
+    <form action="">
+        <label for="fname">First Name : </label><br>
+        <input type="text" id="fname" name="fname" placeholder="First Name"><br>
+        <label for="lname">Last Name : </label><br>
+        <input type="text" id="lname" name="lname" placeholder="Last Name">
+        <hr>
+
+        <label for="email">Email : </label>
+        <input type="email" id="email" name="email" placeholder="abc@gamil.com">
+        <br><br>
+        <label for="password">Password</label>
+        <input id="password" type="password" name="password" placeholder="password">
+
+        <br>
+        <input type="color" name="color" >
+        <br><hr>
+
+        <h3>Radio Buttons</h3>
+        <h4>Your T-shirt Size</h4>
+
+        <label for="small">Small</label>
+        <input id="small" type="radio" name="TshirtSize" value="small">
+
+        <label for="medium">Medium</label>
+        <input id="medium" type="radio" name="TshirtSize" value="medium">
+
+        <label for="large">Large</label>
+        <input id="large" type="radio" name="TshirtSize" value="large">
+        <br>
+        
+        <hr>
+
+        <br>
+        <h2>The select and option elements</h2>
+        <h3>select element defines a drop-down list</h3>
+        <br>
+        <label for="cars">Choose a Car : </label>
+        <select name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="jeep">Jeep</option>
+            <option value="fiat">Fiat</option>
+            <option value="audi">Audi</option>
+        </select>
+        <br>
+        <hr>
+        <br>
+        <h3>Text Area element</h3>
+        <label for="message">Message</label>
+        <textarea name="message" id="message" cols="30" rows="10">
+        </textarea>
+        <br>
+        <input type="reset">
+        <input type="submit">
+    </form>
+</body>
+</html>

@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: wheat;
+}
+.container {
+    width: 80%;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    margin-inline: auto;
+    margin-block: 60px;
+    background-color: rgb(255, 219, 157);
+    border-radius: 10px;
+}
+.left, .right {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    flex-basis: 50%;
+}
+.left-top, .left-bottom, .right-up, .right-bottom {
+    display: flex;
+    gap: 20px;
+    margin-block: 05px;
+}
+h3 {
+    padding-bottom: 10px;
+}
+i {
+    color: rgb(170, 126, 16);
+}

@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: wheat;
+    width: 90%;
+    margin-inline: auto;
+    margin-block: 25px;
+}
+.container {
+    background-color: rgb(191, 240, 159);
+
+}
+.nav-bar {
+    display: inline;
+    margin: 10px;
+}
+ul {
+    margin: 10px;
+    list-style: none;
+}
+li {
+    display: inline;
+    padding-inline: 10px;
+}
+.logo h3{
+    display: inline;
+    margin: 10px;
+}
+

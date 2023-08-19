@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(27, 252, 252);
+}
+.container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;  
+    gap: 10px; 
+    width: 75%;
+}
+.left {
+    background-color: white;
+    width: 220px;
+    box-shadow: 5px 5px 5px gray;
+}
+.middle {
+    background-color: white;
+    width: 220px;
+    box-shadow: 5px 5px 5px gray;
+}
+.right {
+    background-color: white;
+    width: 220px;
+    box-shadow: 5px 5px 5px gray;
+}
+img {
+    width: 100%;
+}
+.content h2 {
+    margin: 10px;
+    font-weight: normal;
+    font-size: 1.4rem;
+}
+.profile-post {
+    margin: 10px;
+    color: gray;
+    font-size: 0.8rem;
+}
+.content p {
+    font-size: 0.9rem;
+    margin: 10px;
+}
+.contact {
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(229, 228, 228);
+    text-align: center;
+    font-size: 0.9rem;
+}
+

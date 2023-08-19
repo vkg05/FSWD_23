@@ -1,0 +1,28 @@
+
+body {
+   background-color: pink;
+}
+.container {
+   width: 80%;
+   margin-inline: auto;
+}
+.kitty {
+   width: 250px;
+   float: right;
+}
+.bottom-kitty {
+   width: 200px;
+   float: left;
+}
+.top-paragraph{
+   clear: right;
+}
+.bottom-paragraph{
+   clear: left;
+}
+.text-wrapper {
+   width: 400px;
+   height: 200px;
+   border: 4px solid red;
+   overflow: auto;
+}

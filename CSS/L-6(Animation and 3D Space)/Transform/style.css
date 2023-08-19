@@ -1,0 +1,23 @@
+.box {
+    width: 200px;
+    height: 200px;
+    color: black;
+    background-color: #ccc;
+    margin: 40px auto;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+.original {
+    background-color: #d54b19;
+    /* transform: scale(0.8, 0.6); */
+    /* transform: scaleX(0.8) scaleY(0.6); same as above */
+    /* transform: skew(30deg, 5deg); */
+    /* transform: translate(70px, 70px); */
+    transition: 2s ease-in-out all;
+    
+}
+.original:hover {
+    transform: scale(0.6);
+    background-color: yellow;
+}

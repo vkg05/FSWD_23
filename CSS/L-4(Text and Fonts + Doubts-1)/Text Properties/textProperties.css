@@ -1,0 +1,15 @@
+h1 {
+    color: blue;
+    /* background-color: yellowgreen; */
+    text-align: center;
+    /* text-decoration-line: underline overline;
+    text-decoration-color: red;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 5px; */
+    text-decoration: underline red dotted 4px;
+    text-shadow: 2px 5px 4px #000;
+}
+p {
+    text-align: justify;
+    text-transform: capitalize;
+}

@@ -1,0 +1,52 @@
+.payment-frame {
+    width: 350px;
+    height: 450px;
+    background-color: wheat;
+    margin-top: 50px;
+    margin-inline: auto;
+    border: 2px solid goldenrod;
+}
+.setting {
+    text-align: center;
+    padding-top: 15px;
+}
+ul {
+    list-style: none;
+    text-align: center;
+    padding: 5px;
+}
+li {
+    display: inline;
+    padding-inline: 10px;
+}
+.saved-card {
+    padding-inline: 30px;
+}
+#saved-card {
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+}
+#add-card {
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+}
+.add-new-card {
+    padding-inline: 0px;   
+}
+#add-cardNo {
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+}
+#add-cardDate {
+    width: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+#add-cardCvv {
+    width: 20px;
+    margin: 10px;
+    padding: 10px;
+}

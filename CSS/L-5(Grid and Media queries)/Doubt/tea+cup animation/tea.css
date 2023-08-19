@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bubble {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    animation: bubble-fade 5s infinite backwards;
+    position: absolute;
+    filter: blur(7px);
+}
+
+.tea-cup {
+    width: 300px;
+    position: absolute;
+    left: -100px;
+    top: -50px;
+}
+
+.bubble-container {
+    position: relative;
+}
+
+.bubble:nth-child(2) {
+    left: 50px;
+    animation-delay: 0.2s;
+}
+
+.bubble:nth-child(3) {
+    bottom: -60px;
+    right: -50px;
+    animation-delay: 0.3s;
+}
+.bubble:nth-child(4) {
+    top: -60px;
+    right: -50px;
+    animation-delay: 0.1s;
+}
+
+@keyframes bubble-fade {
+    0% {
+        transform: scale(0.4) translateY(0);
+    }
+    100% {
+        background-color: transparent;
+        transform: scale(2) translateY(-150px);
+    }
+}
